@@ -166,10 +166,6 @@ button {
 
 @media only screen and (min-width: 25em) {
 
-  .grey-p {
-    font-size: 1em;
-  }
-
   .sub-main {
     font-size: 1.4em;
   }
@@ -255,10 +251,6 @@ button {
   .kang-head {
     width: 20%;
     right: 15%;
-  }
-
-  .grey-p {
-    font-size: 1em;
   }
 
 }
