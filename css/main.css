@@ -107,7 +107,11 @@ button {
 .sub-main {
   color: rgb(58, 58, 58);
   text-align: center;
-  margin-bottom: .3em;
+  margin-bottom: 1.2em;
+  margin-top: 1em;
+  line-height: 1.3em;
+  font-weight: 500;
+  font-size: 1.2em;
 }
 
 .grey-p {
@@ -130,6 +134,8 @@ button {
   color: rgb(58, 58, 58);
   text-align: center;
   margin: 0;
+  line-height: 1.3em;
+  padding-bottom: .3em;
 }
 
 .launch-footer {
@@ -161,6 +167,13 @@ button {
 
 @media only screen and (min-width: 25em) {
 
+  .grey-p {
+    font-size: 1em;
+  }
+
+  .sub-main {
+    font-size: 1.4em;
+  }
 
 }
 
@@ -197,6 +210,10 @@ button {
     max-width: 40em;
   }
 
+  .sub-main {
+    font-size: 1.6em;
+  }
+
   .break {
     display: none;
   }
@@ -213,12 +230,23 @@ button {
 
 @media only screen and (min-width: 48em) {
 
+  .nav-bar {
+    padding: .8em 0 .8em 10%;
+  }
+
   .title-box {
     padding-left: 10%;
   }
 
   .button-box {
     padding-left: 10%;
+  }
+
+  .sub-main {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: .8em;
+    padding-bottom: .5em;
   }
 
   .icon {
@@ -230,12 +258,24 @@ button {
     right: 15%;
   }
 
+  .grey-p {
+    font-size: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
+  .logo {
+    width: 9em;
+  }
+
   .title {
     font-size: 3.3em;
+  }
+
+  .title-box {
+    padding-top: 2em;
   }
 
   .subtitle {
@@ -259,11 +299,9 @@ button {
   }
 
   .sub-main {
-    font-size: 2em;
-  }
-  .launch-intro {
-    padding-left: 20%;
-    padding-right: 20%;
+    font-size: 1.7em;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
   .icon {
@@ -288,6 +326,15 @@ button {
 
 @media only screen and (min-width: 85em) {
 
+  .logo {
+    width: 11em;
+  }
+
+  .title-box {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+
   .title {
     font-size: 4em;
   }
@@ -306,6 +353,10 @@ button {
 
   .gofund {
     font-size: 1.2em;
+  }
+
+  .sub-main {
+    font-size: 1.8em;
   }
 
   .icon-title {
