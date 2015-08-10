@@ -38,6 +38,13 @@ img {
   width: 8em;
 }
 
+.fb-icon {
+  width: 2em;
+  position: absolute;
+  right: 5%;
+  top: 1.5em;
+}
+
 .bg-color {
   background-color: rgb(239, 48, 153);
   margin: 0;
@@ -174,6 +181,10 @@ button {
 
 @media only screen and (min-width: 37em) {
 
+  .fb-icon {
+    right: 10%;
+  }
+
   .launch-intro {
     padding-left: 15%;
     padding-right: 15%;
@@ -259,6 +270,10 @@ button {
 
   .logo {
     width: 9em;
+  }
+
+  .fb-icon {
+    width: 2.5em;
   }
 
   .title {
